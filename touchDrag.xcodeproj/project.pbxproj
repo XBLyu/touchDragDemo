@@ -15,6 +15,7 @@
 		048C380C1BEE070C008974DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048C380B1BEE070C008974DD /* Images.xcassets */; };
 		048C380F1BEE070C008974DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048C380D1BEE070C008974DD /* LaunchScreen.xib */; };
 		048C381B1BEE070C008974DD /* touchDragTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C381A1BEE070C008974DD /* touchDragTests.m */; };
+		048C38261BEE0758008974DD /* TouchDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C38251BEE0758008974DD /* TouchDragView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		048C38141BEE070C008974DD /* touchDragTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = touchDragTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		048C38191BEE070C008974DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		048C381A1BEE070C008974DD /* touchDragTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = touchDragTests.m; sourceTree = "<group>"; };
+		048C38241BEE0758008974DD /* TouchDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchDragView.h; sourceTree = "<group>"; };
+		048C38251BEE0758008974DD /* TouchDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchDragView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				048C380D1BEE070C008974DD /* LaunchScreen.xib */,
 				048C38021BEE070C008974DD /* touchDrag.xcdatamodeld */,
 				048C37FB1BEE070C008974DD /* Supporting Files */,
+				048C38241BEE0758008974DD /* TouchDragView.h */,
+				048C38251BEE0758008974DD /* TouchDragView.m */,
 			);
 			path = touchDrag;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 				048C37FE1BEE070C008974DD /* main.m in Sources */,
 				048C38071BEE070C008974DD /* ViewController.m in Sources */,
 				048C38041BEE070C008974DD /* touchDrag.xcdatamodeld in Sources */,
+				048C38261BEE0758008974DD /* TouchDragView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

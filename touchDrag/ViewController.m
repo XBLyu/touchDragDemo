@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TouchDragView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    TouchDragView *view = [[TouchDragView alloc] init];
+    view.backgroundColor = [UIColor redColor];
+    view.delegate = self;
+    view.frame = self.view.bounds;
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end

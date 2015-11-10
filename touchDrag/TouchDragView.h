@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TouchDragView.h
 //  touchDrag
 //
 //  Created by Mac on 15/11/7.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TouchDragView : UIView
 
+@property (assign, nonatomic) CGPoint beginpoint;
 
+@property id delegate;
 
 @end
-
